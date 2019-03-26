@@ -34,15 +34,6 @@ set showmatch		" Show matching brackets.
 set smartcase		" Do smart case matching
 
 
-" Allow sourcing project specific syntax files
-let s:wjvim = "/support/editor/vim/wjset.vim"
-if filereadable($PROJ_HOME . s:wjvim)
-  exe "source" $PROJ_HOME . s:wjvim
-elseif filereadable($PROJ_BASE . s:wjvim)
-  exe "source" $PROJ_BASE . s:wjvim
-endif
-unlet s:wjvim
-
 " Don't use Ex mode, use Q for formatting
 "map Q gq
 

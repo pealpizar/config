@@ -25,6 +25,16 @@
 " This tests to see if vim was configured with the '--enable-cscope' option
 " when it was compiled.  If it wasn't, time to recompile vim...
 if has("cscope")
+  function! LoadCscope()
+    let db = findfile("cscope.out", ".;")
+    if (!empty(db))
+      let path = strpart(db, 0, match(db, "/cscope.out$"))
+      set nocscopeverbose " suppress 'duplicate connection' error
+      exe "cs add " . db . " " . path
+      set cscopeverbose
+    endif
+  endfunction
+  au BufEnter /* call LoadCscope()
   """"""""""""" Standard cscope/vim boilerplate
   " use both cscope and ctag for 'ctrl-]', ':ta', and 'vim -t'
   set cscopetag
