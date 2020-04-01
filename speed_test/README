@@ -1,0 +1,9 @@
+SpeedTest CLI
+Esta carpeta la idea es monitorear la velocidad prometida por el provedor de
+servicio.
+Se compone de tres archivos:
+1. Archivo donde se ejecuta speedtest y se guarda en un CSV. Ejecuta cada 15min
+2. Archivo donde se analiza el contenido de el CSV y se obtiene el promedio
+3. Ejemplo del crontab que usan ambos archivos
+*/15 * * * * /home/pealpizar/config/speed_test/raw_speed.sh > /dev/null 2>&1
+0 0 * * 0 /home/pealpizar/config/speed_test/speed_translator.py > /dev/null 2>&1
