@@ -10,7 +10,7 @@ if [ ! -f $RAW_FILE ]; then
 fi
 
 # Append the result of the speedtest to the file
-nice -n -15 speedtest-cli --server $SERVER_ID --csv >> $RAW_FILE
+speedtest-cli --server $SERVER_ID --csv >> $RAW_FILE
 #speedtest-cli --csv >> $RAW_FILE
 
 

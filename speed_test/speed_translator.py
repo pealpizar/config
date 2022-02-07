@@ -71,13 +71,13 @@ with open(sum_file, "w+") as txt:
 
 os.remove(raw_file)
 # Preapare to send the email
-#email_cmd = "mail -A " + converted_file + " -s "
-#if ((avg_dic['Download'] < exp_down_speed*0.8) or (avg_dic['Upload'] < exp_up_speed*0.8)):
-#  # The hired speed is below the threshold
-#  email_cmd += "\'Speed below threshold AVG="
-#else:
-#  # The hired speed is inside the threshold
-#  email_cmd += "\'Speed correct AVG="
-#
-#email_cmd += str("%.2f" % avg_dic['Download']) + "/" + str("%.2f" % avg_dic['Upload']) + "\' pealpizar@hotmail.com < /dev/null"
-#os.system(email_cmd)
+email_cmd = "mail -A " + converted_file + " -s "
+if ((avg_dic['Download'] < exp_down_speed*0.8) or (avg_dic['Upload'] < exp_up_speed*0.8)):
+  # The hired speed is below the threshold
+  email_cmd += "\'Speed below threshold AVG="
+else:
+  # The hired speed is inside the threshold
+  email_cmd += "\'Speed correct AVG="
+
+email_cmd += str("%.2f" % avg_dic['Download']) + "/" + str("%.2f" % avg_dic['Upload']) + "\' pealpizar@hotmail.com < /dev/null"
+os.system(email_cmd)
