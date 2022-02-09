@@ -34,13 +34,13 @@ else:
     rawread = csv.DictReader(rawcsv)
     for row in rawread:
       # Add each row to create an average and write to the email file
-      avg_dic['Ping'] += float(row['Ping'])
-      down_Mbps = float(row['Download'])/1000000
+      avg_dic['Ping'] += float(row['latency'])
+      down_Mbps = float(row['download'])/125000
       avg_dic['Download'] += down_Mbps
-      up_Mbps = float(row['Upload'])/1000000
+      up_Mbps = float(row['upload'])/125000
       avg_dic['Upload'] += up_Mbps
       # Save valies into a ordered list in order to make easier saving them
-      row_value_list = [row['Timestamp'], row['Server ID'], row['Sponsor'], float(row['Ping']), down_Mbps, up_Mbps ]
+      row_value_list = [row['Date'], row['server id'], row['server name'], float(row['latency']), down_Mbps, up_Mbps ]
       # Convert into a dictionary to write
       row_dict_write = dict(zip(final_header,row_value_list))
       # Write into the file

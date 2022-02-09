@@ -1,6 +1,7 @@
 SpeedTest CLI
 Esta carpeta la idea es monitorear la velocidad prometida por el provedor de
 servicio.
+Utiliza el paquete original de Ookla que se descarga en https://www.speedtest.net/es/apps/cli
 Se compone de tres archivos:
 1. Archivo donde se ejecuta speedtest y se guarda en un CSV. Ejecuta cada 15min
 2. Archivo donde se analiza el contenido de el CSV y se obtiene el promedio

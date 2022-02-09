@@ -6,11 +6,12 @@ SERVER_ID=14859
 if [ ! -f $RAW_FILE ]; then
   #Run the header dump
   touch $RAW_FILE
-  speedtest-cli --csv-header > $RAW_FILE
+  echo -n '"Date",' > $RAW_FILE
+  speedtest -f csv --output-header |  head -n1  >> $RAW_FILE
 fi
 
 # Append the result of the speedtest to the file
-speedtest-cli --server $SERVER_ID --csv >> $RAW_FILE
+speedtest -s $SERVER_ID -f csv | ts '"%Y-%m-%d %H:%M:%S",' >> $RAW_FILE
 #speedtest-cli --csv >> $RAW_FILE
 
 
