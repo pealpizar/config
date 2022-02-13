@@ -1,0 +1,424 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.4.1
+
+# authoring-byte-order entry is generated, DO NOT DELETE
+authoring-byte-order little-endian;
+
+lease 192.168.0.104 {
+  starts 3 2022/02/09 05:28:14;
+  ends 3 2022/02/09 06:28:14;
+  tstp 3 2022/02/09 06:28:14;
+  cltt 3 2022/02/09 05:28:14;
+  binding state free;
+  hardware ethernet 3e:77:6a:81:f3:da;
+  uid "\001>wj\201\363\332";
+}
+lease 192.168.0.114 {
+  starts 3 2022/02/09 21:40:19;
+  ends 3 2022/02/09 22:40:19;
+  tstp 3 2022/02/09 22:40:19;
+  cltt 3 2022/02/09 21:40:19;
+  binding state free;
+  hardware ethernet 00:50:b6:1a:ef:60;
+  set vendor-class-identifier = "dhcpcd-6.8.2:Linux-3.8.13+:armv7l:Marvell";
+}
+lease 192.168.0.107 {
+  starts 5 2022/02/11 11:27:04;
+  ends 5 2022/02/11 12:27:04;
+  tstp 5 2022/02/11 12:27:04;
+  cltt 5 2022/02/11 11:27:04;
+  binding state free;
+  hardware ethernet 5c:6b:d7:02:5c:d6;
+  uid "\001\\k\327\002\\\326";
+  set vendor-class-identifier = "udhcp 1.24.1";
+}
+lease 192.168.0.116 {
+  starts 5 2022/02/11 22:52:28;
+  ends 5 2022/02/11 23:52:28;
+  tstp 5 2022/02/11 23:52:28;
+  cltt 5 2022/02/11 22:54:43;
+  binding state free;
+  hardware ethernet a8:23:fe:00:04:f9;
+  uid "\001\250#\376\000\004\371";
+}
+lease 192.168.0.111 {
+  starts 5 2022/02/11 23:12:35;
+  ends 6 2022/02/12 00:12:35;
+  tstp 6 2022/02/12 00:12:35;
+  cltt 5 2022/02/11 23:12:35;
+  binding state free;
+  hardware ethernet 70:5a:0f:64:f5:16;
+  uid "\001pZ\017d\365\026";
+  set vendor-class-identifier = "MSFT 5.0";
+}
+lease 192.168.0.117 {
+  starts 6 2022/02/12 23:13:34;
+  ends 0 2022/02/13 00:13:34;
+  tstp 0 2022/02/13 00:13:34;
+  cltt 6 2022/02/12 23:23:16;
+  binding state free;
+  hardware ethernet 80:a5:89:a8:8d:7a;
+  uid "\001\200\245\211\250\215z";
+  set vendor-class-identifier = "MSFT 5.0";
+}
+lease 192.168.0.105 {
+  starts 6 2022/02/12 23:13:54;
+  ends 0 2022/02/13 01:13:54;
+  tstp 0 2022/02/13 01:13:54;
+  cltt 6 2022/02/12 23:13:54;
+  binding state free;
+  hardware ethernet dc:b5:4f:de:b0:6d;
+  uid "\001\334\265O\336\260m";
+}
+lease 192.168.0.100 {
+  starts 6 2022/02/12 23:37:42;
+  ends 0 2022/02/13 01:37:42;
+  tstp 0 2022/02/13 01:37:42;
+  cltt 6 2022/02/12 23:37:42;
+  binding state free;
+  hardware ethernet d0:2b:20:b7:23:10;
+  uid "\001\320+ \267#\020";
+}
+lease 192.168.0.102 {
+  starts 0 2022/02/13 01:20:00;
+  ends 0 2022/02/13 02:20:00;
+  cltt 0 2022/02/13 01:20:00;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 94:3a:91:24:b7:a8;
+  set vendor-class-identifier = "dhcpcd-6.8.2:Linux-4.9.77+:armv7l:Amazon";
+}
+lease 192.168.0.106 {
+  starts 0 2022/02/13 01:29:26;
+  ends 0 2022/02/13 02:29:26;
+  cltt 0 2022/02/13 01:29:26;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 88:57:1d:7d:47:0a;
+  uid "\001\210W\035}G\012";
+  client-hostname "TIZEN";
+}
+lease 192.168.0.110 {
+  starts 0 2022/02/13 01:31:42;
+  ends 0 2022/02/13 02:31:42;
+  cltt 0 2022/02/13 01:31:42;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 48:78:5e:c5:03:d9;
+  set vendor-class-identifier = "dhcpcd-6.8.2:Linux-4.9.77+:armv7l:Amazon";
+}
+lease 192.168.0.101 {
+  starts 0 2022/02/13 01:31:46;
+  ends 0 2022/02/13 02:31:46;
+  cltt 0 2022/02/13 01:31:46;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 34:af:b3:07:33:29;
+  set vendor-class-identifier = "dhcpcd-6.8.2:Linux-4.9.77+:armv7l:Amazon";
+}
+lease 192.168.0.103 {
+  starts 0 2022/02/13 01:35:10;
+  ends 0 2022/02/13 02:35:10;
+  cltt 0 2022/02/13 01:35:10;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 34:c9:3d:20:7c:68;
+  uid "\0014\311= |h";
+  set vendor-class-identifier = "MSFT 5.0";
+  client-hostname "ODEXNJJ2KQ";
+}
+lease 192.168.0.115 {
+  starts 0 2022/02/13 01:40:56;
+  ends 0 2022/02/13 02:40:56;
+  cltt 0 2022/02/13 01:40:56;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b4:b2:91:87:cf:ef;
+  uid "\001\264\262\221\207\317\357";
+  client-hostname "LGwebOSTV";
+}
+lease 192.168.0.108 {
+  starts 0 2022/02/13 01:42:51;
+  ends 0 2022/02/13 02:42:51;
+  cltt 0 2022/02/13 01:42:51;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f0:fe:6b:b6:f7:3c;
+  client-hostname "YALE-4970";
+}
+lease 192.168.0.113 {
+  starts 0 2022/02/13 01:43:55;
+  ends 0 2022/02/13 02:43:55;
+  cltt 0 2022/02/13 01:43:55;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 98:b6:e9:7f:a3:bc;
+}
+lease 192.168.0.109 {
+  starts 0 2022/02/13 01:47:50;
+  ends 0 2022/02/13 02:47:50;
+  cltt 0 2022/02/13 01:47:50;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d8:28:c9:69:92:4d;
+}
+lease 192.168.0.112 {
+  starts 0 2022/02/13 01:13:32;
+  ends 0 2022/02/13 03:13:32;
+  cltt 0 2022/02/13 01:13:32;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 80:5f:c5:38:74:80;
+  uid "\001\200_\3058t\200";
+  client-hostname "iPad";
+}
+lease 192.168.0.118 {
+  starts 0 2022/02/13 01:34:32;
+  ends 0 2022/02/13 03:34:32;
+  cltt 0 2022/02/13 01:34:32;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f8:2d:7c:a5:95:02;
+  uid "\001\370-|\245\225\002";
+  client-hostname "iPhone-Alba";
+}
+lease 192.168.0.102 {
+  starts 0 2022/02/13 01:48:49;
+  ends 0 2022/02/13 02:48:49;
+  cltt 0 2022/02/13 01:48:49;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 94:3a:91:24:b7:a8;
+  set vendor-class-identifier = "dhcpcd-6.8.2:Linux-4.9.77+:armv7l:Amazon";
+}
+lease 192.168.0.105 {
+  starts 0 2022/02/13 01:55:30;
+  ends 0 2022/02/13 02:55:30;
+  cltt 0 2022/02/13 01:55:30;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet dc:b5:4f:de:b0:6d;
+  uid "\001\334\265O\336\260m";
+  client-hostname "iPhone";
+}
+lease 192.168.0.106 {
+  starts 0 2022/02/13 01:59:26;
+  ends 0 2022/02/13 02:59:26;
+  cltt 0 2022/02/13 01:59:26;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 88:57:1d:7d:47:0a;
+  uid "\001\210W\035}G\012";
+  client-hostname "TIZEN";
+}
+lease 192.168.0.110 {
+  starts 0 2022/02/13 02:00:31;
+  ends 0 2022/02/13 03:00:31;
+  cltt 0 2022/02/13 02:00:31;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 48:78:5e:c5:03:d9;
+  set vendor-class-identifier = "dhcpcd-6.8.2:Linux-4.9.77+:armv7l:Amazon";
+}
+lease 192.168.0.101 {
+  starts 0 2022/02/13 02:00:35;
+  ends 0 2022/02/13 03:00:35;
+  cltt 0 2022/02/13 02:00:35;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 34:af:b3:07:33:29;
+  set vendor-class-identifier = "dhcpcd-6.8.2:Linux-4.9.77+:armv7l:Amazon";
+}
+lease 192.168.0.103 {
+  starts 0 2022/02/13 02:05:10;
+  ends 0 2022/02/13 03:05:10;
+  cltt 0 2022/02/13 02:05:10;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 34:c9:3d:20:7c:68;
+  uid "\0014\311= |h";
+  set vendor-class-identifier = "MSFT 5.0";
+  client-hostname "ODEXNJJ2KQ";
+}
+lease 192.168.0.115 {
+  starts 0 2022/02/13 02:10:56;
+  ends 0 2022/02/13 03:10:56;
+  cltt 0 2022/02/13 02:10:56;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b4:b2:91:87:cf:ef;
+  uid "\001\264\262\221\207\317\357";
+  client-hostname "LGwebOSTV";
+}
+lease 192.168.0.112 {
+  starts 0 2022/02/13 02:17:32;
+  ends 0 2022/02/13 04:17:32;
+  cltt 0 2022/02/13 02:17:32;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 80:5f:c5:38:74:80;
+  uid "\001\200_\3058t\200";
+  client-hostname "iPad";
+}
+lease 192.168.0.102 {
+  starts 0 2022/02/13 02:17:38;
+  ends 0 2022/02/13 03:17:38;
+  cltt 0 2022/02/13 02:17:38;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 94:3a:91:24:b7:a8;
+  set vendor-class-identifier = "dhcpcd-6.8.2:Linux-4.9.77+:armv7l:Amazon";
+}
+lease 192.168.0.109 {
+  starts 0 2022/02/13 02:17:51;
+  ends 0 2022/02/13 03:17:51;
+  cltt 0 2022/02/13 02:17:51;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d8:28:c9:69:92:4d;
+}
+lease 192.168.0.108 {
+  starts 0 2022/02/13 02:18:05;
+  ends 0 2022/02/13 03:18:05;
+  cltt 0 2022/02/13 02:18:05;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f0:fe:6b:b6:f7:3c;
+  client-hostname "YALE-4970";
+}
+lease 192.168.0.110 {
+  starts 0 2022/02/13 02:29:20;
+  ends 0 2022/02/13 03:29:20;
+  cltt 0 2022/02/13 02:29:20;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 48:78:5e:c5:03:d9;
+  set vendor-class-identifier = "dhcpcd-6.8.2:Linux-4.9.77+:armv7l:Amazon";
+}
+lease 192.168.0.101 {
+  starts 0 2022/02/13 02:29:24;
+  ends 0 2022/02/13 03:29:24;
+  cltt 0 2022/02/13 02:29:24;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 34:af:b3:07:33:29;
+  set vendor-class-identifier = "dhcpcd-6.8.2:Linux-4.9.77+:armv7l:Amazon";
+}
+lease 192.168.0.106 {
+  starts 0 2022/02/13 02:29:26;
+  ends 0 2022/02/13 03:29:26;
+  cltt 0 2022/02/13 02:29:26;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 88:57:1d:7d:47:0a;
+  uid "\001\210W\035}G\012";
+  client-hostname "TIZEN";
+}
+lease 192.168.0.105 {
+  starts 0 2022/02/13 02:29:39;
+  ends 0 2022/02/13 04:29:39;
+  cltt 0 2022/02/13 02:29:39;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet dc:b5:4f:de:b0:6d;
+  uid "\001\334\265O\336\260m";
+  client-hostname "iPhone";
+}
+lease 192.168.0.118 {
+  starts 0 2022/02/13 02:34:32;
+  ends 0 2022/02/13 04:34:32;
+  cltt 0 2022/02/13 02:34:32;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f8:2d:7c:a5:95:02;
+  uid "\001\370-|\245\225\002";
+  client-hostname "iPhone-Alba";
+}
+lease 192.168.0.103 {
+  starts 0 2022/02/13 02:35:10;
+  ends 0 2022/02/13 03:35:10;
+  cltt 0 2022/02/13 02:35:10;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 34:c9:3d:20:7c:68;
+  uid "\0014\311= |h";
+  set vendor-class-identifier = "MSFT 5.0";
+  client-hostname "ODEXNJJ2KQ";
+}
+lease 192.168.0.113 {
+  starts 0 2022/02/13 02:35:28;
+  ends 0 2022/02/13 03:35:28;
+  cltt 0 2022/02/13 02:35:28;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 98:b6:e9:7f:a3:bc;
+}
+lease 192.168.0.108 {
+  starts 0 2022/02/13 02:40:45;
+  ends 0 2022/02/13 03:40:45;
+  cltt 0 2022/02/13 02:40:45;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f0:fe:6b:b6:f7:3c;
+  client-hostname "YALE-4970";
+}
+lease 192.168.0.115 {
+  starts 0 2022/02/13 02:40:56;
+  ends 0 2022/02/13 03:40:56;
+  cltt 0 2022/02/13 02:40:56;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b4:b2:91:87:cf:ef;
+  uid "\001\264\262\221\207\317\357";
+  client-hostname "LGwebOSTV";
+}
+lease 192.168.0.102 {
+  starts 0 2022/02/13 02:46:27;
+  ends 0 2022/02/13 03:46:27;
+  cltt 0 2022/02/13 02:46:27;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 94:3a:91:24:b7:a8;
+  set vendor-class-identifier = "dhcpcd-6.8.2:Linux-4.9.77+:armv7l:Amazon";
+}
+lease 192.168.0.109 {
+  starts 0 2022/02/13 02:47:52;
+  ends 0 2022/02/13 03:47:52;
+  cltt 0 2022/02/13 02:47:52;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d8:28:c9:69:92:4d;
+}
